@@ -1,0 +1,37 @@
+{
+  "id": "1484708",
+  "name": "blogweb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "259478",
+      "name": "母婴",
+      "font_class": "muying",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1511006",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "8862848",
+      "name": "xiaoxi",
+      "font_class": "xiaoxi",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "9668340",
+      "name": "sousuo",
+      "font_class": "sousuo",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    }
+  ]
+}

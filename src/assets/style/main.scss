@@ -1,0 +1,28 @@
+// @import "../../lib/hotcss/px2rem.scss";
+
+$drak-color: #343a40;
+$main-color: $drak-color;
+
+$text-color: #222222;
+$fade-text-color: #666666;
+$line-color: #bebebe;
+
+
+// space
+$left-sapce: 150px;
+
+// font-size
+$large-title: 38px;
+$title1: 17px;
+$title2: 15px;
+$titl3: 13px;
+$headline: 18px;
+$subheadline: 14px;
+$body: 14px;
+
+
+
+// box
+.wrap-box {
+    margin: 0 $left-sapce;
+}
