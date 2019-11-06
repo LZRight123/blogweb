@@ -25,7 +25,30 @@ const routes = [
   {
     path: "/MobileApp",
     name: "MobileApp",
-    component: () => import("@/views/MobileApp.vue")
+    component: () => import("@/views/MobileApp.vue"),
+    redirect: "/MobileApp/mainpage",
+    children: [
+      {
+        path: "mainpage",
+        name: "mainpage",
+        component: () => import("@/views/tabbar/MainPage.vue")
+      },
+      {
+        path: "member",
+        name: "member",
+        component: () => import("@/views/tabbar/Member.vue")
+      },
+      {
+        path: "shopCar",
+        name: "shopCar",
+        component: () => import("@/views/tabbar/ShopCar.vue")
+      },
+      {
+        path: "search",
+        name: "search",
+        component: () => import("@/views/tabbar/Search.vue")
+      }
+    ]
   }
 
   // {

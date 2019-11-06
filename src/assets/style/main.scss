@@ -21,8 +21,24 @@ $subheadline: 14px;
 $body: 14px;
 
 
+// flex布局 子元素垂直水平剧中
+@mixin childsCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 // box
 .wrap-box {
     margin: 0 $left-sapce;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
 }
