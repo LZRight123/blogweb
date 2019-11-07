@@ -8,7 +8,7 @@
 
     <ul class="grid-box">
       <li>
-        <router-link to="child" class="grid-item">
+        <router-link to="mainpage/newslist" class="grid-item">
           <i class="mui-icon mui-icon-home"></i>
           <h6 class="grid-item-title">新闻咨询</h6>
         </router-link>

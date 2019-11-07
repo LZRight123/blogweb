@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-  <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
   name: "app",
-  components: {
-  }
+  components: {}
 };
 </script>
 
 <style>
-@import "./lib/normalize.css"
-
+@import "./lib/normalize.css";
 </style>

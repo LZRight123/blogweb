@@ -18,6 +18,13 @@ Vue.config.productionTip = false;
 // Register it globally
 Vue.component("ValidationProvider", ValidationProvider);
 
+// 定义全局的过滤器
+// 导入格式化时间插件
+import moment from "moment";
+Vue.filter("dataFormat", function(dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
+  return moment(dataStr).format(pattern);
+});
+
 var appVM = new Vue({
   router,
   store,

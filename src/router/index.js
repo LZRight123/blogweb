@@ -47,9 +47,20 @@ const routes = [
         path: "search",
         name: "search",
         component: () => import("@/views/tabbar/Search.vue")
+      },
+      {
+        path: "mainpage/newslist",
+        name: "newslist",
+        component: () => import("@/views/news/NewsList.vue")
+      },
+      {
+        path: "home/newsinfo/:id",
+        name: "newsinfo",
+        component: () => import("../views/news/NewsInfo.vue")
       }
     ]
   }
+  
 
   // {
   //     path: "/about",

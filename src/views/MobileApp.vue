@@ -49,10 +49,11 @@ export default {
 <style lang="scss" scoped>
 .app-container {
   padding-top: 44px;
+  padding-bottom: 50px;
   overflow-x: hidden;
 }
 
-.v-enter{
+.v-enter {
   opacity: 0;
   transform: translateX(100%);
 }
@@ -63,7 +64,8 @@ export default {
   position: absolute;
 }
 
-.v-enter-active, .v-leave-active {
+.v-enter-active,
+.v-leave-active {
   transition: all 0.25s ease;
 }
 </style>

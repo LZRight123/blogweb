@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <script>
 import SingIn from "../components/SignComponent";
 import service from "../service";
@@ -36,12 +35,11 @@ export default {
       service.login(u, p).then(res => {
         console.log("回掉");
         console.log(res.data);
-      })
+      });
     }
   }
 };
 </script>
-
 
 <style lang="scss" scoped>
 @import "../assets/font/iconfont.css";

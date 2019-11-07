@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <script>
 import Sign from "../components/SignComponent.vue";
 import service from "../service";
