@@ -13,5 +13,19 @@ export default {
         id
       }
     });
+  },
+  getCommentInfo(id) {
+    return axios.get("/api/getnewscomments", {
+      params: {
+        id
+      }
+    });
+  },
+  addComment(from, to, content) {
+    return axios.post("/api/addnewscomment", {
+      from,
+      to,
+      content
+    });
   }
 };

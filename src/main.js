@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 // 饿了么组件
 import "./plugins/element.js";
+import "./plugins/mint-ui.js";
 // 验证
 import { ValidationProvider } from "vee-validate";
 // mui

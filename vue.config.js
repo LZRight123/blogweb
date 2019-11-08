@@ -21,7 +21,7 @@ module.exports = {
     hot: true,
     proxy: {
       "/": {
-        target: "http://127.0.0.1:8081",
+        target: "http://192.168.0.104:8081",
         ws: true,
         changeOrigin: true,
         pathRewrite: {
