@@ -57,6 +57,11 @@ const routes = [
         path: "home/newsinfo/:id",
         name: "newsinfo",
         component: () => import("../views/news/NewsInfo.vue")
+      },
+      {
+        path: "mainpage/images",
+        name: "images",
+        component: () => import("../views/imageShare/ImageSahre.vue")
       }
     ]
   }

@@ -10,8 +10,8 @@ import { ValidationProvider } from "vee-validate";
 // mui
 import "./lib/mui/css/mui.css";
 import "./lib/mui/css/icons-extra.css";
-// import "./lib/mui/js/mui.js";
-
+// import mui from "./lib/mui/js/mui.js";
+// Vue.prototype.$mui = mui;
 // hotcss 导入js文件
 // import "./lib/hotcss/hotcss.js";
 

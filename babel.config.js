@@ -8,5 +8,6 @@ module.exports = {
         styleLibraryName: "theme-chalk"
       }
     ]
-  ]
+  ],
+  ignore: ["./src/lib/mui/js/mui.js"]
 };

@@ -1,3 +1,6 @@
+const webpack = require("webpack");
+const path = require("path");
+
 module.exports = {
   // build 引用路径
   // publicPath: process.env.NODE_ENV === "production" ? "../dist/" : "./",
@@ -21,7 +24,7 @@ module.exports = {
     hot: true,
     proxy: {
       "/": {
-        target: "http://192.168.0.104:8081",
+        target: "http://127.0.0.1:8081",
         ws: true,
         changeOrigin: true,
         pathRewrite: {
@@ -29,12 +32,27 @@ module.exports = {
         }
       }
     }
-  },
-
-  chainWebpack: config => {
-    config.module
-      .rule("svg-sprite")
-      .use("svgo-loader")
-      .loader("svgo-loader");
   }
+  // ,
+  // chainWebpack: config => {
+  //   config.resolve.alias
+  //     .set("@", path.resolve(__dirname, "./src"))
+  //     .set("mui", path.resolve(__dirname, "./src/lib/mui/js/mui.js"));
+  // },
+  // configureWebpack: {
+  //   // 增加一个plugins
+  //   plugins: [
+  //     new webpack.ProvidePlugin({
+  //       mui: "mui",
+  //       "window.mui": "mui"
+  //     })
+  //   ]
+  // }
+
+  // chainWebpack: config => {
+  //   config.module
+  //     .rule("svg-sprite")
+  //     .use("svgo-loader")
+  //     .loader("svgo-loader");
+  // }
 };

@@ -14,7 +14,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="child" class="grid-item">
+        <router-link to="mainpage/images" class="grid-item">
           <i class="mui-icon mui-icon-email"></i>
           <h6 class="grid-item-title">图片分享</h6>
         </router-link>
